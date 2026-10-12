@@ -1,0 +1,65 @@
+:root {
+  /* Core Backgrounds */
+  --bg-primary: #07080B;
+  --bg-secondary: #0D1015;
+  --surface-elevated: #13171E;
+  --surface-card: #171B22;
+  --surface-card-hover: #1C222B;
+  --surface-overlay: rgba(7, 8, 11, 0.88);
+  --surface-glass: rgba(19, 23, 30, 0.75);
+  --surface-glass-border: rgba(255, 255, 255, 0.08);
+
+  /* Typography Colors */
+  --text-primary: #F5F5F2;
+  --text-secondary: #9B9FA8;
+  --text-muted: #626771;
+  --text-inverted: #07080B;
+
+  /* Royal Gold Hierarchy */
+  --gold-primary: #C9A227;
+  --gold-bright: #E6C65C;
+  --gold-soft: #8F741D;
+  --gold-highlight: #F2D77A;
+  --gold-warm: #FFF1B8;
+  --gold-dark: #5C470E;
+
+  /* Gold Gradients & Glows */
+  --gold-gradient: linear-gradient(135deg, #F2D77A 0%, #C9A227 50%, #8F741D 100%);
+  --gold-gradient-bright: linear-gradient(135deg, #FFF1B8 0%, #E6C65C 50%, #C9A227 100%);
+  --gold-gradient-subtle: linear-gradient(135deg, rgba(201, 162, 39, 0.15) 0%, rgba(143, 116, 29, 0.05) 100%);
+  --gold-glow: 0 0 24px rgba(201, 162, 39, 0.28);
+  --gold-glow-lg: 0 0 45px rgba(230, 198, 92, 0.35);
+  --gold-border-glow: 0 0 15px rgba(201, 162, 39, 0.2);
+
+  /* Live & Status Indicators */
+  --live-red: #EF4444;
+  --live-red-glow: 0 0 14px rgba(239, 68, 68, 0.6);
+  --status-open: #10B981;
+  --status-soon: #F59E0B;
+  --status-full: #6B7280;
+  --status-completed: #3B82F6;
+
+  /* Fonts */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.7);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.45);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 500ms cubic-bezier(0.16, 1, 0.3, 1);
+}
